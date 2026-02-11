@@ -1,10 +1,10 @@
-# neoZombiePlant
+# ZombiePlant
 
 > **Autonomous Hydroponic Intelligence**
 
-![neoZombiePlant Architecture Overview](res/overview.png)
+![ZombiePlant Architecture Overview](res/overview.png)
 
-**neoZombiePlant** is an intelligent, autonomous hydroponic gardening system. It integrates hardware sensors and actuators with a sophisticated AI agent ("Alvaro") to manage the complete lifecycle of a plant, from germination to harvest.
+**ZombiePlant** is an intelligent, autonomous hydroponic gardening system. It integrates hardware sensors and actuators with a sophisticated AI agent ("Alvaro") to manage the complete lifecycle of a plant, from germination to harvest.
 
 The system is designed with a **"Body-Brain-Face"** architecture:
 
@@ -48,7 +48,7 @@ The human interface for monitoring and control.
 
 ## 🛠️ Hardware List
 
-The following components were used to build the initial version of the neoZombiePlant.
+The following components were used to build the initial version of the ZombiePlant.
 
 | Component | Description | Link |
 | :--- | :--- | :--- |
@@ -148,4 +148,4 @@ Follow these steps to set up the system. We'll start with the body (Hardware), t
     Or open the project in Android Studio and click "Run".
 
 ---
-*Created with ❤️ by the neoZombiePlant Team.*
+*Created with ❤️ by the ZombiePlant Team.*
