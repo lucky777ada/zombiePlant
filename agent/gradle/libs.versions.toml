@@ -1,0 +1,31 @@
+[versions]
+junit = "4.13.2"
+kotlin = "2.2.20"
+kotlinx-coroutines = "1.10.2"
+koog = "0.6.1"
+slf4j = "2.0.16"
+ktor = "+"
+exposed = "0.57.0"
+postgresql = "42.7.1"
+
+[libraries]
+koog-agents = { module = "ai.koog:koog-agents", version.ref = "koog" }
+koog-tools = { module = "ai.koog:agents-tools", version.ref = "koog" }
+koog-agents-planner = { module = "ai.koog:agents-planner", version.ref = "koog" }
+koog-executor-openai-client = { module = "ai.koog:prompt-executor-openai-client", version.ref = "koog" }
+koog-executor-google-client = { module = "ai.koog:prompt-executor-google-client", version.ref = "koog" }
+koog-executor-ollama-client = { module = "ai.koog:prompt-executor-ollama-client", version.ref = "koog" }
+koog-executor-openrouter-client = { module = "ai.koog:prompt-executor-openrouter-client", version.ref = "koog" }
+koog-features-event-handler = { module = "ai.koog:agents-features-event-handler", version.ref = "koog" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "ktor" }
+ktor-serialization-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
+exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed" }
+postgresql-driver = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
+
+[plugins]
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

@@ -1,0 +1,40 @@
+{
+    "stages": [
+        {
+            "name": "SEEDLING",
+            "duration_days": 14,
+            "target_tds_min": 300,
+            "target_tds_max": 500,
+            "target_ph_min": 5.8,
+            "target_ph_max": 6.3,
+            "light_schedule": {
+                "on_hours": 18,
+                "off_hours": 6
+            }
+        },
+        {
+            "name": "VEGETATIVE",
+            "duration_days": 21,
+            "target_tds_min": 800,
+            "target_tds_max": 1200,
+            "target_ph_min": 5.5,
+            "target_ph_max": 6.0,
+            "light_schedule": {
+                "on_hours": 18,
+                "off_hours": 6
+            }
+        },
+        {
+            "name": "FLOWERING",
+            "duration_days": 60,
+            "target_tds_min": 1000,
+            "target_tds_max": 1400,
+            "target_ph_min": 6.0,
+            "target_ph_max": 6.5,
+            "light_schedule": {
+                "on_hours": 12,
+                "off_hours": 12
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+gpiozero
+rpi.gpio
+spidev
+smbus2
+adafruit-circuitpython-dht
+board
+pyaudio
+# Testing dependencies
+pytest
+pytest-asyncio
+httpx

@@ -1,0 +1,8 @@
+Things that failed or to improve in next version. 
+
+- Water floaters getting accidentally stuck with other cables/tubes. 
+- Water flowing back to source slowly (even with one way valve). 
+- Air bubbles getting pumps stuck/unable to pump water. 
+- Getting water in needs a big revamp. 
+- Organize cables better, should not be visible. 
+- Sediment stays at the bottom, when we refill it disturbs it and the PPM shoots through the roof.
