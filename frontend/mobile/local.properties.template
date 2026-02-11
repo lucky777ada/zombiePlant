@@ -1,0 +1,6 @@
+# This file is for local development properties and should not be committed to Git.
+#
+# To use, copy this file to local.properties and replace placeholder values.
+
+# Base URL for the ZombiePlant API
+zombieplant.api.baseUrl=http://YOUR_API_BASE_URL

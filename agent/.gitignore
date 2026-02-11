@@ -1,0 +1,29 @@
+# IntelliJ IDEA
+.idea/
+.idea/*
+.idea/dictionaries/project.xml
+*.iml
+
+# Gradle
+.gradle/
+build/
+out/
+gradlew.bat.lock
+
+# Kotlin
+.kotlin/
+
+# Project specific
+src/main/memories/
+GEMINI.md
+
+# Operating System
+.DS_Store
+*.log
+
+# Compiled output
+*.jar
+*.war
+*.zip
+local.properties
+config.json

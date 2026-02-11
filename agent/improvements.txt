@@ -1,0 +1,5 @@
+Things to improve or fix for the agent for next version.
+
+- We are at the seedling stage and it has already used 1/3 of all nutrients.
+- After empty_tank procedure, we can't fill back in cause pump has air in it.
+- The agent needs a Calendar to remember what it has done and history of the water.

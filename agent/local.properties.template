@@ -1,0 +1,16 @@
+# Gemini API Key
+gemini.api.key=YOUR_GEMINI_API_KEY_HERE
+
+# Hydroponic System URL
+hydroponic.api.url=http://192.168.1.100
+
+# LM Studio URL
+lmstudio.api.url=http://localhost:1234
+
+# Database Configuration
+db.url=jdbc:postgresql://localhost:5432/zombie_plant
+db.user=postgres
+db.password=password
+
+# OpenRouter API Key
+openrouter.api.key=YOUR_OPENROUTER_API_KEY_HERE
