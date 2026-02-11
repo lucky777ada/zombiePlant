@@ -37,8 +37,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Autonomous Hydroponic Plant API",
-    version="1.1",
-    description="REST API to control and monitor the ZombiePlant V1.0 hydroponic system.",
+    version="0.0.1",
+    description="REST API to control and monitor the ZombiePlant V0.0.1 hydroponic system.",
     lifespan=lifespan
 )
 
@@ -48,7 +48,7 @@ app.include_router(jobs.router)
 @app.get("/", tags=["System"], response_model=StatusResponse)
 def read_root():
     """Returns the current status and system version."""
-    return {"status": "Online", "system": "ZombiePlant V1.1"}
+    return {"status": "Online", "system": "ZombiePlant V0.0.1"}
 
 @app.post("/control/pump", tags=["Control"], response_model=PumpResponse)
 async def control_pump(command: PumpCommand = Body(...)):

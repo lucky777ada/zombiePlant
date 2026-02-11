@@ -1,6 +1,6 @@
 # neoZombiePlant - Autonomous Hydroponic Agent
 
-**neoZombiePlant** is an intelligent agentic system designed to autonomously manage a hydroponic gardening unit. Powered by Large Language Models (LLMs), the agent ("Alvaro") monitors plant health, controls environmental factors, and manages nutrient dosing to ensure a successful harvest.
+**neoZombiePlant** is an intelligent agentic system designed to autonomously manage a hydroponic gardening unit. Powered by Large Language Models (LLMs), the agent ("Zombie") monitors plant health, controls environmental factors, and manages nutrient dosing to ensure a successful harvest.
 
 ## Features
 

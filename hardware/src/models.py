@@ -39,7 +39,7 @@ class DoseRequest(BaseModel):
 
 class StatusResponse(BaseModel):
     status: str = Field(..., json_schema_extra={"example": "Online"})
-    system: str = Field(..., json_schema_extra={"example": "ZombiePlant V1.0"})
+    system: str = Field(..., json_schema_extra={"example": "ZombiePlant V0.0.1"})
 
 class SuccessResponse(BaseModel):
     status: Literal["success"] = "success"

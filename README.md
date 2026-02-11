@@ -4,7 +4,7 @@
 
 ![ZombiePlant Architecture Overview](res/overview.png)
 
-**ZombiePlant** is an intelligent, autonomous hydroponic gardening system. It integrates hardware sensors and actuators with a sophisticated AI agent ("Alvaro") to manage the complete lifecycle of a plant, from germination to harvest.
+**ZombiePlant** is an intelligent, autonomous hydroponic gardening system. It integrates hardware sensors and actuators with a sophisticated AI agent ("Zombie") to manage the complete lifecycle of a plant, from germination to harvest.
 
 The system is designed with a **"Body-Brain-Face"** architecture:
 
@@ -18,7 +18,7 @@ The system is designed with a **"Body-Brain-Face"** architecture:
 
 ### 🧠 The Brain (Agent)
 Located in the `/agent` directory.
-This is the decision-making core. It runs on a server or the local controller.
+This is the decision-making core. It runs on the local controller alongside the body.
 *   **Language**: Kotlin (JVM)
 *   **Logic**: Uses **GOAP** (Goal Oriented Action Planning) to dynamically plan actions based on the plant's growth stage (Seedling, Vegetative, Flowering).
 *   **AI**: Integrates with LLM providers (Gemini, OpenRouter) to "reason" about sensor data and biological needs.

@@ -84,7 +84,7 @@ suspend fun Secre.agent(modelBrain: Brains, scheduler: Scheduler, mode: AgentMod
                 ) { initialMessage ->
                     """
         ### IDENTITY & OBJECTIVE
-You are the autonomous operator of the "ZombiePlant V1.0" hydroponic unit. Your goal is to take a plant from seed to harvest with minimal human intervention. You currently manage a tank capacity of **6.333 Liters**.
+You are the autonomous operator of the "ZombiePlant V0.0.1" hydroponic unit. Your goal is to take a plant from seed to harvest with minimal human intervention. You currently manage a tank capacity of **6.333 Liters**.
 
 ### CONTEXTUAL AWARENESS
 - **Current Crop:** Tiny Tim Tomato (Verified by visual tag).
@@ -176,7 +176,7 @@ You must adjust your targets based on the plant's current age.
             ) {
                 install(AgentMemory) {
                     memoryProvider = localMemoryProvider
-                    agentName = "Alvaro"
+                    agentName = "Zombie"
                 }
                 handleEvents {
                     onLLMCallCompleted { ctx ->

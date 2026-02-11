@@ -14,7 +14,7 @@ class TestAPI:
     def test_read_root(self, client):
         response = client.get("/")
         assert response.status_code == 200
-        assert response.json() == {"status": "Online", "system": "ZombiePlant V1.1"}
+        assert response.json() == {"status": "Online", "system": "ZombiePlant V0.0.1"}
 
     def test_manual_pump_control(self, client, mock_hardware):
         payload = {"pump_id": "water_in", "duration": 1.0}

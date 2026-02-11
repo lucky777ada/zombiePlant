@@ -18,7 +18,7 @@ data class FloraDose(
 )
 
 object NutrientCalculator {
-    // Exact volume of the ZombiePlant V1.0 reservoir
+    // Exact volume of the ZombiePlant V0.0.1 reservoir
     private const val TANK_VOLUME_LITERS = 6.333
 
     // Conversion factor: 1 Gallon = 3.785 Liters
